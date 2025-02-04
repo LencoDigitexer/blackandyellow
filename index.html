@@ -1,126 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Студия Сникер-Химчистки</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      background-color: #e9ebe8;
-      font-family: 'Arial', sans-serif;
-    }
-    .hero-section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 5rem;
-    }
-    .hero-text {
-      max-width: 50%;
-    }
-    .hero-title {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-    .hero-subtitle {
-      font-size: 1.2rem;
-      color: #6c757d;
-    }
-    .btn-custom {
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-transform: uppercase;
-    }
-    .btn-custom:hover {
-      background-color: #000;
-    }
-    .hero-image img {
-      max-width: 100%;
-      border-radius: 15px;
-    }
-    nav {
-      padding: 0 3rem;
-    }
-    .navbar {
-      justify-content: center;
-    }
-    .navbar-brand img {
-
-    }
-    .navbar-nav {
-      display: flex;
-      justify-content: center;
-      gap: 5rem;
-    }
-    .navbar-nav {
-        color: rgb(43, 43, 43);
-        font-family: Montserrat;
-        font-size: 21px;
-        font-weight: 400;
-        line-height: 130%;
-        letter-spacing: 9%;
-        text-align: left;
-        text-transform: uppercase;
-
-        font-family: 'Montserrat', sans-serif;
-        padding: 1.6rem;
-    }
-
-    .nav-link {
-        padding: 1.6rem;
-    }
-
-
-    .social-icons {
-      display: flex;
-      gap: 1.5rem;
-    }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Студия Сникер-Химчистки</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+	body {
+		background-color: #e9ebe8;
+		font-family: 'Arial', sans-serif;
+	}
+	
+	.hero-section {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 5rem;
+	}
+	
+	.hero-text {
+		max-width: 50%;
+	}
+	
+	.hero-title {
+		font-size: 3rem;
+		font-weight: bold;
+	}
+	
+	.hero-subtitle {
+		font-size: 1.2rem;
+		color: #6c757d;
+	}
+	
+	.btn-custom {
+		background-color: #333;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+	
+	.btn-custom:hover {
+		background-color: #000;
+	}
+	
+	.hero-image img {
+		max-width: 100%;
+		border-radius: 15px;
+	}
+	
+	nav {
+		padding: 0rem 3rem;
+	}
+	
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 3rem 30rem;
+	}
+	
+	.navbar-brand img {
+		height: 8rem;
+	}
+	
+	.navbar-nav {
+		display: flex;
+		justify-content: center;
+		gap: 5rem;
+	}
+	
+	.navbar-nav {
+		color: rgb(43, 43, 43);
+		font-family: Montserrat;
+		font-size: 21px;
+		font-weight: 400;
+		line-height: 130%;
+		letter-spacing: 9%;
+		text-align: left;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		padding: 1.6rem;
+	}
+	
+	.nav-link {
+		padding: 1rem 0;
+		font-size: 21px;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.social-icons {
+		display: flex;
+		align-items: center;
+		gap: 1.6rem;
+	}
+	</style>
 </head>
+
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
-        <div class="container-fluid d-flex justify-content-center">
-          
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><img src="img/Black And Yellow.svg" alt="Логотип"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Услуги</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Примеры работ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Информация</a>
-            </li>
-            
-          </ul>
-          <div class="social-icons ms-3">
-            <a href="#" class="me-1"><img src="img/tg.svg"></a>
-            <a href="#" class="me-1"><img src="img/vk.svg"></a>
-          </div>
-        </div>
-      </nav>
-
-<section class="hero-section">
-  <div class="hero-text">
-    <p class="text-muted">МОСКВА И МОСКОВСКАЯ ОБЛАСТЬ</p>
-    <h1 class="hero-title">Студия Сникер-Химчистки</h1>
-    <p class="hero-subtitle">Предоставляем комплекс услуг по чистке и реставрации обуви</p>
-    <button class="btn btn-custom mt-3">Оставить заявку</button>
-  </div>
-  <div class="hero-image">
-    <img src="img/afee4e0fb952e8924625b1eaea053283.png" alt="Sneaker Image">
-  </div>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light1 px-3">
+		<div class="container-fluid d-flex justify-content-center">
+			<a class="navbar-brand" href="#"><img src="img/Black And Yellow.svg" alt="Логотип"></a>
+			<ul class="navbar-nav">
+				<li class="nav-item"> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Услуги</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Примеры работ</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Информация</a> </li>
+				<li class="nav-item"> </li>
+			</ul>
+			<div class="social-icons ms-3">
+				<a href="#" class="me-1"><img src="img/tg.svg"></a>
+				<a href="#" class="me-1"><img src="img/vk.svg"></a>
+			</div>
+		</div>
+	</nav>
+	<section class="hero-section">
+		<div class="hero-text">
+			<p class="text-muted">МОСКВА И МОСКОВСКАЯ ОБЛАСТЬ</p>
+			<h1 class="hero-title">Студия Сникер-Химчистки</h1>
+			<p class="hero-subtitle">Предоставляем комплекс услуг по чистке и реставрации обуви</p>
+			<button class="btn btn-custom mt-3">Оставить заявку</button>
+		</div>
+		<div class="hero-image"> <img src="img/afee4e0fb952e8924625b1eaea053283.png" alt="Sneaker Image"> </div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
