@@ -1,0 +1,88 @@
+.section-title-new {
+    text-align: justify;
+    padding-left: 3rem;
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 60.95px;
+        line-height: 73.14px;
+        letter-spacing: 9%;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24.7px;
+        letter-spacing: 0%;
+
+    }
+}
+
+.about-two-text {
+    button.dark {
+        padding: 1rem 3rem;
+        margin-left: 3rem;
+    }
+}
+
+.about-two-img {
+    margin-top: 2rem;
+}
+
+.pric-tabe-new {
+    background-color: #e9ebe8;
+}
+
+.prising-card-new {
+
+    padding: 30px 20px;
+    -webkit-box-shadow: 0px 0px 20px #eeeeee;
+    box-shadow: 0px 0px 20px #eeeeee;
+    border-radius: 40px;
+    border: 1px solid #e1e1e1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+
+    --shadow: 0 20px 40px -1px rgba(21, 25, 36, 0.32);
+    box-shadow: var(--shadow);
+}
+
+
+@media only screen and (max-width: 980px) {
+
+    .section-title-new {
+        text-align: justify;
+        padding-left: 0rem;
+        h2 {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 3rex;
+            line-height: 73.14px;
+            letter-spacing: 9%;
+    
+        }
+    
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 24.7px;
+            letter-spacing: 0%;
+    
+        }
+
+        
+    }
+
+    .about-two-text {
+        button.dark {
+            margin-left: 0rem;
+        }
+    }
+  
+  
+}

@@ -1,0 +1,22 @@
+.seo-banner-area {
+    position: relative;
+    overflow: hidden; /* Чтобы не выходило за границы */
+}
+
+.seo-banner-text1 {
+    position: relative;
+    z-index: 2; /* Чтобы текст был поверх изображения */
+}
+
+.seo-banner-img {
+    position: absolute;
+    top: 10rem;
+    right: -120px; /* Смещение ближе к центру */
+    transform: translateY(-50%) translateX(-50%) scale(1.7); /* Центрирование + увеличение */
+    max-width: none; /* Убираем ограничения по ширине */
+}
+
+.seo-banner-img img {
+    width: 800px; /* Увеличение размера */
+    height: auto; 
+}
