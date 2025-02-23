@@ -12,11 +12,11 @@
     position: absolute;
     top: 10rem;
     right: -120px; /* Смещение ближе к центру */
-    transform: translateY(-50%) translateX(-50%) scale(1.7); /* Центрирование + увеличение */
+    transform: translateY(-35%) translateX(-55%) scale(2.4); /* Центрирование + увеличение */
     max-width: none; /* Убираем ограничения по ширине */
 }
 
 .seo-banner-img img {
-    width: 800px; /* Увеличение размера */
+    width: 1800px; /* Увеличение размера */
     height: auto; 
 }

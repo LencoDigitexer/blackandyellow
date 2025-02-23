@@ -3,30 +3,92 @@
 
   --before-after-aspect-ratio: 1 / 1;    /* <--- Square 1080px x 1080px */
 
-  --before-image: url("assets/images/custom/service/2.png");
-  --after-image: url("assets/images/custom/service/1.png");
+  --before-image1: url("assets/images/custom/service/2.png");
+  --after-image1: url("assets/images/custom/service/1.png");
+
+  --before-image2: url("assets/images/custom/service/3.png");
+  --after-image2: url("assets/images/custom/service/4.png");
+
+  --before-image3: url("assets/images/custom/service/5.png");
+  --after-image3: url("assets/images/custom/service/6.png");
+
+  --before-image4: url("assets/images/custom/service/7.png");
+  --after-image4: url("assets/images/custom/service/8.png");
 
   
   --before-after-background-color: #1f1f1c;
 }
 
-.before-after-container {
+.before-after-container1 {
   aspect-ratio: var(--before-after-aspect-ratio);
   background: var(--before-after-background-color);
   width: 100%;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
-.before-after-container figure {
-  background-image: var(--after-image);
+
+.before-after-container2 {
+    aspect-ratio: var(--before-after-aspect-ratio);
+    background: var(--before-after-background-color);
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.before-after-container3 {
+    aspect-ratio: var(--before-after-aspect-ratio);
+    background: var(--before-after-background-color);
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.before-after-container4 {
+    aspect-ratio: var(--before-after-aspect-ratio);
+    background: var(--before-after-background-color);
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.before-after-container1 figure {
+  background-image: var(--after-image1);
   position: relative;
   margin: 0;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
+
+.before-after-container2 figure {
+    background-image: var(--after-image2);
+    position: relative;
+    margin: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.before-after-container3 figure {
+    background-image: var(--after-image3);
+    position: relative;
+    margin: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.before-after-container4 figure {
+    background-image: var(--after-image4);
+    position: relative;
+    margin: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
 #before_after1 {
-  background-image: var(--before-image);
+  background-image: var(--before-image1);
   background-size: cover;
   bottom: 0;
   border-right: 5px solid rgba(255, 255, 255, 0.7);
@@ -40,7 +102,57 @@
   animation: first 2s 1 normal ease-in-out 0.1s;
   -webkit-animation: first 2s 1 normal ease-in-out 0.1s;
 }
-input#before_after_slider {
+
+#before_after2 {
+    background-image: var(--before-image2);
+    background-size: cover;
+    bottom: 0;
+    border-right: 5px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 10px 0 15px -13px #000;
+    height: 100%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+    width: 50%;
+    animation: first 2s 1 normal ease-in-out 0.1s;
+    -webkit-animation: first 2s 1 normal ease-in-out 0.1s;
+}
+
+#before_after3 {
+    background-image: var(--before-image3);
+    background-size: cover;
+    bottom: 0;
+    border-right: 5px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 10px 0 15px -13px #000;
+    height: 100%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+    width: 50%;
+    animation: first 2s 1 normal ease-in-out 0.1s;
+    -webkit-animation: first 2s 1 normal ease-in-out 0.1s;
+}
+
+#before_after4 {
+    background-image: var(--before-image4);
+    background-size: cover;
+    bottom: 0;
+    border-right: 5px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 10px 0 15px -13px #000;
+    height: 100%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+    width: 50%;
+    animation: first 2s 1 normal ease-in-out 0.1s;
+    -webkit-animation: first 2s 1 normal ease-in-out 0.1s;
+}
+
+
+input#before_after_slider1 {
   -moz-appearance: none;
   -webkit-appearance: none;
   border: none;
@@ -55,10 +167,73 @@ input#before_after_slider {
   top: -100vw;
   width: 100%;
 }
-input#before_after_slider::-moz-range-track {
+
+input#before_after_slider2 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    cursor: col-resize;
+    height: 100vw;
+    left: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: relative;
+    top: -100vw;
+    width: 100%;
+}
+
+input#before_after_slider3 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    cursor: col-resize;
+    height: 100vw;
+    left: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: relative;
+    top: -100vw;
+    width: 100%;
+}
+
+input#before_after_slider4 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    cursor: col-resize;
+    height: 100vw;
+    left: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: relative;
+    top: -100vw;
+    width: 100%;
+}
+
+
+input#before_after_slider1::-moz-range-track {
   background: transparent;
 }
-input#before_after_slider::-ms-track {
+
+input#before_after_slider2::-moz-range-track {
+    background: transparent;
+}
+
+input#before_after_slider3::-moz-range-track {
+    background: transparent;
+}
+
+input#before_after_slider4::-moz-range-track {
+    background: transparent;
+}
+
+input#before_after_slider1::-ms-track {
   border: none;
   background-color: transparent;
   height: 100vw;
@@ -72,29 +247,168 @@ input#before_after_slider::-ms-track {
   cursor: col-resize;
   color: transparent;
 }
-input#before_after_slider::-ms-fill-lower {
+
+input#before_after_slider2::-ms-track {
+    border: none;
+    background-color: transparent;
+    height: 100vw;
+    left: 0;
+    top: -100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+      outline: none;
+    position: relative;
+    cursor: col-resize;
+    color: transparent;
+}
+
+input#before_after_slider3::-ms-track {
+    border: none;
+    background-color: transparent;
+    height: 100vw;
+    left: 0;
+    top: -100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+      outline: none;
+    position: relative;
+    cursor: col-resize;
+    color: transparent;
+}
+
+input#before_after_slider4::-ms-track {
+    border: none;
+    background-color: transparent;
+    height: 100vw;
+    left: 0;
+    top: -100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+      outline: none;
+    position: relative;
+    cursor: col-resize;
+    color: transparent;
+}
+
+
+
+input#before_after_slider1::-ms-fill-lower {
   background-color: transparent;
 }
-input#before_after_slider::-webkit-slider-thumb {
+
+input#before_after_slider2::-ms-fill-lower {
+    background-color: transparent;
+}
+
+input#before_after_slider3::-ms-fill-lower {
+    background-color: transparent;
+}
+
+input#before_after_slider4::-ms-fill-lower {
+    background-color: transparent;
+}
+
+
+input#before_after_slider1::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 100vw;
   width: 0.5%;
   opacity: 0;
 }
-input#before_after_slider::-moz-range-thumb {
+
+input#before_after_slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider4::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider1::-moz-range-thumb {
   -moz-appearance: none;
   height: 100vw;
   width: 0.5%;
   opacity: 0;
 }
-input#before_after_slider::-ms-thumb {
+
+input#before_after_slider2::-moz-range-thumb {
+  -moz-appearance: none;
   height: 100vw;
   width: 0.5%;
   opacity: 0;
 }
-input#before_after_slider::-ms-tooltip {
+
+input#before_after_slider3::-moz-range-thumb {
+  -moz-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider4::-moz-range-thumb {
+  -moz-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+
+input#before_after_slider1::-ms-thumb {
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider2::-ms-thumb {
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider3::-ms-thumb {
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider4::-ms-thumb {
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#before_after_slider1::-ms-tooltip {
   display: none;
 }
+
+input#before_after_slider2::-ms-tooltip {
+  display: none;
+}
+
+input#before_after_slider3::-ms-tooltip {
+  display: none;
+}
+
+input#before_after_slider4::-ms-tooltip {
+  display: none;
+}
+
 #before_after1::before {
   background: url(https://assets.codepen.io/191814/comparision.png) no-repeat
     scroll 0 center transparent;
@@ -107,6 +421,47 @@ input#before_after_slider::-ms-tooltip {
   top: 0;
   width: 64px;
 }
+
+#before_after2::before {
+  background: url(https://assets.codepen.io/191814/comparision.png) no-repeat
+    scroll 0 center transparent;
+  background-size: contain;
+  content: " ";
+  float: right;
+  height: 100%;
+  margin-right: -34px;
+  position: relative;
+  top: 0;
+  width: 64px;
+}
+
+#before_after3::before {
+  background: url(https://assets.codepen.io/191814/comparision.png) no-repeat
+    scroll 0 center transparent;
+  background-size: contain;
+  content: " ";
+  float: right;
+  height: 100%;
+  margin-right: -34px;
+  position: relative;
+  top: 0;
+  width: 64px;
+}
+
+#before_after4::before {
+  background: url(https://assets.codepen.io/191814/comparision.png) no-repeat
+    scroll 0 center transparent;
+  background-size: contain;
+  content: " ";
+  float: right;
+  height: 100%;
+  margin-right: -34px;
+  position: relative;
+  top: 0;
+  width: 64px;
+}
+
+
 @keyframes first {
   0% {
     width: 0%;
