@@ -2981,7 +2981,7 @@ Personal Portfolio CSS
 
 /* Fun Facts Area */
 .fun-facts-area {
-  background-image: url("../images/portfolio/fun-fact.jpg");
+  background-image: url("../images/custom/tg-bg.png");
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -2990,7 +2990,6 @@ Personal Portfolio CSS
 .fun-facts-area::before {
   content: '';
   position: absolute;
-  background-color: rgba(86, 40, 179, 0.75);
   width: 100%;
   height: 100%;
   top: 0;
@@ -2999,8 +2998,8 @@ Personal Portfolio CSS
 
 .fun-facts-area .single-fun-facts {
   position: relative;
-  padding-left: 100px;
-  margin-bottom: 30px;
+  padding-left: 0px;
+  margin-bottom: 0px;
 }
 
 .fun-facts-area .single-fun-facts i {
